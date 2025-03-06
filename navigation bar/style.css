@@ -1,0 +1,15 @@
+*{
+    color: white;
+}
+div{
+    background-color: black;
+    height: 30px;
+    padding-top: 10px;
+}
+.bar{
+    margin-left:20px ;
+}
+input{
+    margin-left: 180px;
+    border:solid rgba(0, 106, 255, 0.994);
+}
