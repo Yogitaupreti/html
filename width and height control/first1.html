@@ -1,0 +1,25 @@
+<!-- 21-what is the diffrence between max-width:100px and width 100px? -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 100px;
+            background-color: red;
+        }
+        /* always 100px,no matter what */
+        .box2{
+            max-width:100px;
+            background-color: blue;
+        }
+        /* can be smaller,but will not exceed100px. */
+    </style>
+ </head>
+ <body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+ </body>
+ </html>
